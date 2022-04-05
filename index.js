@@ -160,13 +160,13 @@ function doSims5(fechaInicia,fechaFinal){
 
                 arrayAccidentes+=[
                 
-                    '<div class="fechaResultado">En la Fecha: '+semana[fechaInicia.getDay()]+" "+fechaInicia.getDay()+" de "+mes[fechaInicia.getMonth()]+" entre "+currentSchedule+", A la hora "+fechaInicia.getHours()+":"+fechaInicia.getMinutes()+' se hizo un cambio de sentido a la direccion '+sentido+" debido ha "+razonCambio+' </div>',                 
+                    '<div class="fechaResultado">En la Fecha: '+semana[fechaInicia.getDay()]+" "+fechaInicia.getUTCDate()+" de "+mes[fechaInicia.getMonth()]+" entre "+currentSchedule+", A la hora "+fechaInicia.getHours()+":"+fechaInicia.getMinutes()+' se hizo un cambio de sentido a la direccion '+sentido+" debido ha "+razonCambio+' </div>',                 
                 
                 ];
             }else{
                 arrayAccidentes+=[
                 
-                    '<div class="fechaResultado">En la Fecha: '+semana[fechaInicia.getDay()]+" "+fechaInicia.getDay()+" de "+mes[fechaInicia.getMonth()]+" entre "+currentSchedule+", A la hora "+fechaInicia.getHours()+":"+fechaInicia.getMinutes()+' se hizo un cambio de sentido a la direccion '+sentido+" debido ha "+razonCambio+' </div>',                 
+                    '<div class="fechaResultado">En la Fecha: '+semana[fechaInicia.getDay()]+" "+fechaInicia.getUTCDate()+" de "+mes[fechaInicia.getMonth()]+" entre "+currentSchedule+", A la hora "+fechaInicia.getHours()+":"+fechaInicia.getMinutes()+' se hizo un cambio de sentido a la direccion '+sentido+" debido ha "+razonCambio+' </div>',                 
                 
                 ];
             }
