@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad #5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align:center">Simulacion de sentidos viales</h1>
+    <div id="data_input" class="data_input">        
+        <div>
+            <label for="fechaInicial">Fecha Inicial</label> <br>
+            <input type="date" name="fechaInicial" id="fechaInicial">
+        </div>
+        <div>
+            <label for="horaInicial">Hora Inicial</label> <br>
+            <input type="time" name="horaInicial" id="horaInicial">
+        </div>
+        <div>
+            <label for="fechaFinal">Fecha Final</label> <br>
+            <input type="date" name="fechaFinal" id="fechaFinal">
+        </div>
+        <div>
+            <label for="horaFinal">Hora Inicial</label> <br>
+            <input type="time" name="horaFinal" id="horaFinal">
+        </div>
+        <button id="submit">Empezar</button>
+        <button class="btn-bottom">
+            <a id="btm-link" href="#bottom">Ir al final de la pagina</a>
+        </button>
+        
+    </div>
+
+    <h1 style="text-align:center">Resultados de la Simulacion</h1>
+    <div id="data_output" class="data_output">
+        
+    </div>
+    <div id="bottom"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
