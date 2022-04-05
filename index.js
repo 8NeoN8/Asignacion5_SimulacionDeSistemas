@@ -125,8 +125,8 @@ function doSims5(fechaInicia,fechaFinal){
     let arrayAccidentes = "";
     while(fechaFinal>fechaInicia){
 
-        let currentDay = fechaInicial.getDay();
-        let currentHour = fechaInicial.getHours();
+        let currentDay = fechaInicia.getDay();
+        let currentHour = fechaInicia.getHours();
         let currentSchedule;
 
         let datos = checkCurrentSchedule(currentDay, currentHour);
